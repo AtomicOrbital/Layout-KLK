@@ -282,14 +282,17 @@ footer h2{
         height: 350px;
     }
 
-    .intro__content {
+    /* .intro__content {
         flex-direction: column;
     }
     .intro_left, .intro_right {
         width: 100%;
-        margin: 0;
+        margin: auto;
+    } */
+    .intro__content .intro_left img, .intro__content .intro_right img {
+        max-width: 95%; /* Reduce the width of images */
+        height: auto;
     }
- 
     .products_content {
         flex-wrap: wrap;
     }
