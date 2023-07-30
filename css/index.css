@@ -345,6 +345,7 @@ footer h2{
     .intro__content .intro_left img, .intro__content .intro_right img {
         max-width: 95%; /* Reduce the width of images */
         height: auto;
+        
     }
 
     .products_content {
@@ -392,7 +393,7 @@ footer h2{
     }
 
     .intro__content .intro_left img, .intro__content .intro_right img {
-        max-width: 95%; /* Reduce the width of images */
+        max-width: 95%;
         height: auto;
     }
 
